@@ -27,15 +27,15 @@ O Cypress pre-configurado tbm me permitiu focar diretamente no teste e2e ao inv�
 
 # Metas
 
-Todas as metas da descrição do projeto (incluindo o plus) foram cumpridas (na minha maquina funcionou fhairfhoahrfoarf brincadeira, na building tbm tá certinho, eu testei).
+Todas as metas da descrição do projeto (incluindo o plus) foram cumpridas (na minha maquina funcionou haha ;P brincadeira, na building tbm tá certinho, eu e o cypress testamos).
 
-PLUS: Por se tratar de um PWA, o VUE configura automaticamente alguns service works e o manifest possibilitando a pagina ser "instalada" como app em celulares. Embora é algo que se possa fazer fora do vue, acho legal que já venha pre-configurado ^^
+PLUS: Por se tratar de um PWA, o VUE configura automaticamente alguns service works e o manifest possibilitando a pagina ser "instalada" como app em celulares.
 
-# Pastas altamente relevantes para análise do código
+# Pastas relevantes para análise deste código
 
 ## /src/components
 
-Contém os components da UI. Como utilizei um approach de single-file components, cada arquivo nesta
+Contém os components da UI. Como o vue utiliza um approach de single-file components, cada arquivo nesta
 pasta contem o HTML,JS,SCSS de cada parte da interface.
 
 ## /shared
@@ -51,4 +51,4 @@ Aqui estão
 
 ## Conclusão
 
-Tentei demonstrar neste aplicativo uma maneira clean e ágil de execução do teste proposto, e também tentei evidenciar de uma maneira honesta e simples como costumo abordar os problemas. Espero que tenha ficado de acordo com os padrões esperados para a prosição :)
+Tentei demonstrar neste aplicativo uma maneira clean e ágil de execução do teste proposto, e também tentei evidenciar de uma maneira honesta e simples como costumo abordar os problemas e como estruturo minhas aplicações. Caso ainda hajam duvidas, existem alguns projetos que desenvolvo por diversão ou desenvolvimento pessoal no meu git que devem tbm servir de objeto de analise para qualidade de código, arquitetura etc. Espero que tenha ficado de acordo com os padrões esperados para a prosição :)
