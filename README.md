@@ -1,16 +1,15 @@
 # Live
 
-Uma build deste source esta disponível em:
-https://felippe-regazio.github.io/m-test/dist/?no-cache=1
+Uma build deste source esta disponível em [https://felippe-regazio.github.io/m-test/dist/?no-cache=1](https://felippe-regazio.github.io/m-test/dist/?no-cache=1)
 
 # Sources
 
 Código fonte em:
-https://github.com/felippe-regazio/m-test
+[https://github.com/felippe-regazio/m-test](https://github.com/felippe-regazio/m-test)
 
 # Building
 
-Para executar o código em modo de desenvolvimento ou criar outra build, vide INSTALL.md
+Para executar o código em modo de desenvolvimento ou criar outra build, vide [INSTALL.md](https://github.com/felippe-regazio/m-test/blob/master/INSTALL.md)
 
 # Tecnologia
 
