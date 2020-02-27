@@ -34,7 +34,7 @@ yarn run build
 Para testes E2E utilizei Cypress e procurei cobrir com os testes não só o fluxo da aplicação, mas o que foi proposto no briefing.
 
 ```
-yarn run test
+yarn run test:e2e
 ```
 
 ### Testes unitários
