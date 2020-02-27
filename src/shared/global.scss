@@ -1,0 +1,106 @@
+$container-width: 1200px;
+
+:root {
+
+	// app basic vars
+
+	--global-primary-color: #E02B4A;
+	--global-hover-color: var(--gray-f);
+	--global-font-color: var(--gray-h);
+
+	--global-container-width: #{$container-width};
+
+	--global-gray-a: #3a3a3a;
+	--global-gray-b: #adadad;
+	--global-gray-c: #797c79;
+	--global-gray-d: #f0f0f0;
+	--global-gray-e: #f7f7f7;
+	--global-gray-f: #eff0f0;
+	--global-gray-h: #535353;
+
+	// brand colors
+
+	--global-color-amazon: #ff9700;
+	--global-color-apple: #737373;
+	--global-color-basecamp: #6bbd6d;
+	--global-color-box: #1277bc;
+	--global-color-dribbble: #ed4584;
+	--global-color-dropbox: #0d84de;
+	--global-color-ebay: #083790;
+	--global-color-facebook: #365397;
+	--global-color-flickr: #ea0066;
+	--global-color-foursquare: #207dc5;
+	--global-color-github: #2f2f2f;
+	--global-color-google: #4285f4;
+	--global-color-googleplus: #e0452c;
+	--global-color-instagram: #fb3958;
+	--global-color-linkedin: #006db3;
+	--global-color-pinterest: #ce1a19;
+	--global-color-skype: #00acf4;
+	--global-color-tumblr: #304c68;
+	--global-color-twitter: #00a9f1;
+	--global-color-vimeo: #48b6ed;
+	--global-color-yelp: #c30f00;
+	--global-color-youtube: #ff3333;
+	--global-color-vk: #4c75a3;
+	--global-color-weibo: #df2029;
+	--global-color-whatsapp: #25D366;
+	--global-color-telegram: #0088cc;
+	--global-color-reddit: #ff5700;
+	--global-color-line: #00c300;
+	--global-color-sms: #5BC236;
+	--global-color-email: #B23121;
+	--global-color-analytics: #ffa500;
+
+}
+
+body {
+	background-color: var(--global-gray-e);
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	.container {
+		position: relative;
+		width: var(--global-container-width);
+		margin: 0 auto;
+		box-sizing: border-box;
+		max-width: 100vw;
+		@media screen and (max-width: $container-width) {
+			padding: 0 10px;
+		}
+	}
+	* {
+		box-sizing: border-box;
+	}
+	button, .btn {
+		padding: 8px 14px;
+		border-radius: 4px;
+		background-color: var(--global-primary-color);
+		border: none;
+		outline: none;
+		font-weight: 400;
+		color: #ffffff;
+		cursor: pointer;
+		&:hover {
+			background-color: lighten(#E02B4A, 10%);
+		}
+	}
+	input[type="radio"], .input-radio {
+		appearance: none;
+		width: 20px;
+		height: 20px;
+		border: solid 2px #bbbbbb;
+		border-radius: 100%;
+		outline: none;
+		position: relative;
+		&:checked::after {
+			content: "";
+			width: 12px;
+			height: 12px;
+			border-radius: 100%;
+			background-color: #ffa500;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+}
