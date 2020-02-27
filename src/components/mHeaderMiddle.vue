@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="logo" data-cy="app-logo">
 				<a href="/" target="_blank">
-					<img src="//wpimages.mlabs.com.br/wp-content/uploads/2020/01/23135108/logo-color.webp">
+					<img src="http://wpimages.mlabs.com.br/wp-content/uploads/2020/01/23135108/logo-color.webp">
 				</a>
 			</div>
 			<div class="items">

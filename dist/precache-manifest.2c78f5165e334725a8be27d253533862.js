@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e345b8a50564415a206",
-    "url": "/m-test/dist/css/app.eaccb05f.css"
+    "revision": "91a89be9cfac6baf0085",
+    "url": "/m-test/dist/css/app.b9100eb3.css"
   },
   {
     "revision": "3756dbec3cd5ea130564",
@@ -24,12 +24,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/m-test/dist/fonts/prime-regular-webfont.e3926a6c.woff2"
   },
   {
-    "revision": "cbc01da4f13d1e69f3f851c57bc7ccda",
+    "revision": "0d3cd7caff1ae0ae95b674edd1bee19e",
     "url": "/m-test/dist/index.html"
   },
   {
-    "revision": "9e345b8a50564415a206",
-    "url": "/m-test/dist/js/app.371c1a85.js"
+    "revision": "91a89be9cfac6baf0085",
+    "url": "/m-test/dist/js/app.fa7074b0.js"
   },
   {
     "revision": "3756dbec3cd5ea130564",
