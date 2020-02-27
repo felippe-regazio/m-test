@@ -23,13 +23,11 @@ Escolhi VUE.JS para executar o app proposto por conta de:
 5. Ecossistema riquissimo e integrado ao NPM
 
 Vue tbm me deu a possibilidade de quebrar a UI em diversos single file elements, e testa-los separamente.
-O Cypress pre-configurado tbm me permitiu focar diretamente no teste e2e ao invés de perder tempo configurando o framework pra teste.
+A integração E2E com Cypres tbm é ótima, o que me possibilitou uma boa flexibilidade com Cypress.
 
 # Metas
 
-Todas as metas da descrição do projeto (incluindo o plus) foram cumpridas (na minha maquina funcionou haha ;P brincadeira, na building tbm tá certinho, eu e o cypress testamos).
-
-PLUS: Por se tratar de um PWA, o VUE configura automaticamente alguns service works e o manifest possibilitando a pagina ser "instalada" como app em celulares.
+Todas as metas da descrição do projeto (incluindo o Plus) foram cumpridas.
 
 # Pastas relevantes para análise deste código
 
@@ -48,6 +46,15 @@ Aqui estão
 2. global.js - Um arquivo JS global que não foi necessário no fim das contas, mas é um costumo deixá-lo lá rs.
 2. global.scss - Style que será comum para toda a aplicação e algumas normalizações
 3. apiClient.js - Um wrapper para fazer requisições a API mockada (utilizando axios)
+
+## /tests/e2e/specs
+
+Aqui estão os testes E2E que escrevi.
+Escolhi Cypress para tal porque o acho simplesmente incrivel ^^
+
+## /tests/unit
+
+Aqui estão os testes unitários (Jest).
 
 ## Conclusão
 
