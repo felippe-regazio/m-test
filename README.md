@@ -51,4 +51,4 @@ Aqui estão
 
 ## Conclusão
 
-Tentei demonstrar neste aplicativo uma maneira clean e ágil de execução do teste proposto, e também tentei evidenciar de uma maneira honesta e simples como costumo abordar os problemas e como estruturo minhas aplicações. Caso ainda hajam duvidas, existem alguns projetos que desenvolvo por diversão ou desenvolvimento pessoal no meu git que devem tbm servir de objeto de analise para qualidade de código, arquitetura etc. Espero que tenha ficado de acordo com os padrões esperados para a prosição :)
+Tentei demonstrar neste aplicativo uma maneira clean e ágil de execução do teste proposto, e também tentei evidenciar de uma maneira honesta e simples como costumo abordar os problemas e como estruturo minhas aplicações. Caso ainda hajam duvidas, existem alguns projetos que desenvolvo por diversão ou desenvolvimento pessoal no meu git que devem tbm servir de objeto de analise para qualidade de código, arquitetura etc. Espero que tenha ficado de acordo com os padrões esperados para a posição :)
